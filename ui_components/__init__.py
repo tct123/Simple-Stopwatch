@@ -1,3 +1,3 @@
-__all__ = ['stopwatch']
+__all__ = ["stopwatch"]
 
 from ui_components.stopwatch import Stopwatch

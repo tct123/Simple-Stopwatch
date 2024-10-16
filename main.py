@@ -9,9 +9,9 @@ def main(page: ft.Page):
     page.theme_mode = "light"
 
     # window geometry
-    page.window_height = 350
-    page.window_width = 500
-    page.window_resizable = False
+    page.window.height = 350
+    page.window.width = 500
+    page.window.resizable = False
 
     # alignments
     page.vertical_alignment = ft.MainAxisAlignment.CENTER
@@ -105,4 +105,4 @@ def main(page: ft.Page):
 
 
 if __name__ == "__main__":
-    ft.app(target=main, view=ft.AppView.WEB_BROWSER)
+    ft.app(target=main)
